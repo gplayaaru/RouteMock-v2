@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Simple route-pin mark for RouteMock, so the project builds without PNG icons. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M30,78 L48,52 L60,64 L78,30"
+        android:strokeWidth="8"
+        android:strokeColor="#FFFFFF"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+    <!-- NOTE: Android vector drawables do NOT support a circle element
+         with android:cx / android:cy / android:r (those are SVG attributes,
+         AAPT rejects them). Draw the two dots as arc paths instead. -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M23,78 a7,7 0 1,0 14,0 a7,7 0 1,0 -14,0 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M71,30 a7,7 0 1,0 14,0 a7,7 0 1,0 -14,0 Z" />
+</vector>
